@@ -1,0 +1,38 @@
+﻿  Shield.cpp
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(90): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(91): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Captain.cpp
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(90): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(91): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.cpp(13): warning C4005: 'SCREEN_HEIGHT': macro redefinition
+  g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\define.h(193): note: see previous definition of 'SCREEN_HEIGHT'
+  Source.cpp
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(90): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(91): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(201): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(208): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1467): warning C4018: '<': signed/unsigned mismatch
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1479): warning C4018: '<': signed/unsigned mismatch
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1485): warning C4018: '<': signed/unsigned mismatch
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1499): warning C4018: '<': signed/unsigned mismatch
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1510): warning C4305: 'argument': truncation from 'double' to 'float'
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1513): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1551): warning C4305: 'argument': truncation from 'double' to 'float'
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1554): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1595): warning C4305: 'argument': truncation from 'double' to 'float'
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1606): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1662): warning C4018: '<': signed/unsigned mismatch
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\source.cpp(1875): warning C4018: '<': signed/unsigned mismatch
+  UI.cpp
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(90): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(91): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\ui.cpp(86): warning C4018: '<': signed/unsigned mismatch
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\ui.cpp(90): warning C4018: '<': signed/unsigned mismatch
+  Weapon.cpp
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(90): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(91): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Whip.cpp
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(90): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+g:\nm game\game-captain-america-master\game_captain_america\game_captain_america\captain.h(91): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Game_Captain_America.vcxproj -> G:\NM Game\Game-Captain-America-master\Game_Captain_America\Debug\Game_Captain_America.exe
