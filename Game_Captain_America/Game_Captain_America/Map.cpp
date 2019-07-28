@@ -96,13 +96,11 @@ void Map::Draw(float x,float y)
 {
 	RECT tileRect;
 	D3DXVECTOR3 tilePos;
-	int cameraWidth = 640;//viewPort->GetCameraWidth();
-	int cameraHeight = 320;//viewPort->GetCameraHeight();
 
 	int colStart = (int)x / tileWidth;
-	int colEnd = ((int)x + cameraWidth) / tileWidth < cols - 1 ? (x + cameraWidth) / tileWidth : cols - 1;
+	int colEnd = ((int)x + CGame::GetInstance()->mCamera->getW()) / tileWidth < cols - 1 ? (x + CGame::GetInstance()->mCamera->getW()) / tileWidth : cols - 1;
 	int rowStart = (int)y /   tileHeight;
-	int rowEnd = ((int)y +  cameraHeight) / tileHeight < rows - 1 ? (y + cameraHeight) / tileHeight : rows - 1;
+	int rowEnd = ((int)y + CGame::GetInstance()->mCamera->getH()) / tileHeight < rows - 1 ? (y + CGame::GetInstance()->mCamera->getH()) / tileHeight : rows - 1;
 
 	for (int i = rowStart; i <= rowEnd; i++)
 	{

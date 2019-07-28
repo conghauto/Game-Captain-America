@@ -3,7 +3,7 @@
 
 void Lantern::Render()
 {
-	if (!isShooted)
+	if (!isHitted)
 		animations[0]->Render(x, y, 255);
 }
 void Lantern::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
@@ -13,7 +13,7 @@ void Lantern::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 
 void Lantern::SetShoot()
 {
-	isShooted = true;
+	isHitted = true;
 }
 
 void Lantern::GetBoundingBox(float &l, float &t, float &r, float &b)

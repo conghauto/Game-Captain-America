@@ -121,12 +121,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BigFire.cpp" />
-    <ClCompile Include="BossBat.cpp" />
     <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Candle.cpp" />
     <ClCompile Include="CheckPoint.cpp" />
-    <ClCompile Include="CheckStair.cpp" />
     <ClCompile Include="debug.cpp" />
     <ClCompile Include="define.cpp" />
     <ClCompile Include="Effect.cpp" />
@@ -135,27 +131,24 @@
     <ClCompile Include="GridObjects.cpp" />
     <ClCompile Include="Ground.cpp" />
     <ClCompile Include="Item.cpp" />
-    <ClCompile Include="Knife.cpp" />
+    <ClCompile Include="Shield.cpp" />
     <ClCompile Include="Lantern.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Money.cpp" />
-    <ClCompile Include="Panther.cpp" />
-    <ClCompile Include="Simon.cpp" />
+    <ClCompile Include="Captain.cpp" />
+    <ClCompile Include="Soldier.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Sprites.cpp" />
-    <ClCompile Include="Stair.cpp" />
     <ClCompile Include="Textures.cpp" />
     <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Water.cpp" />
+    <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="Whip.cpp" />
     <ClCompile Include="Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BigFire.h" />
-    <ClInclude Include="BossBat.h" />
     <ClInclude Include="Camera.h" />
-    <ClInclude Include="Candle.h" />
     <ClInclude Include="CheckPoint.h" />
-    <ClInclude Include="CheckStair.h" />
     <ClInclude Include="debug.h" />
     <ClInclude Include="define.h" />
     <ClInclude Include="Effect.h" />
@@ -164,16 +157,17 @@
     <ClInclude Include="GridObjects.h" />
     <ClInclude Include="Ground.h" />
     <ClInclude Include="Item.h" />
-    <ClInclude Include="Knife.h" />
+    <ClInclude Include="Shield.h" />
     <ClInclude Include="Lantern.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Money.h" />
-    <ClInclude Include="Panther.h" />
-    <ClInclude Include="Simon.h" />
+    <ClInclude Include="Captain.h" />
+    <ClInclude Include="Soldier.h" />
     <ClInclude Include="Sprites.h" />
-    <ClInclude Include="Stair.h" />
     <ClInclude Include="Textures.h" />
     <ClInclude Include="UI.h" />
+    <ClInclude Include="Water.h" />
+    <ClInclude Include="Weapon.h" />
     <ClInclude Include="Whip.h" />
     <ClInclude Include="Zombie.h" />
   </ItemGroup>

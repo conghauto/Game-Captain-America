@@ -1,10 +1,9 @@
 #pragma once
 #include "GameObject.h"
+#include"define.h"
 
-#define CANDLE_BBOX_WIDTH  16
-#define CANDLE_BBOX_HEIGHT 16
 
-class Candle : public CGameObject
+class Water : public CGameObject
 {
 public:
 	virtual void Render();

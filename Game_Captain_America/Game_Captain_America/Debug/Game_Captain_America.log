@@ -1,33 +1,6 @@
-﻿  Source.cpp
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Simon.h(89,36): warning C4244:  'return': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Simon.h(90,36): warning C4244:  'return': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(230,16): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(237,17): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1068,26): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1075,27): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1127,28): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1161,41): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1161,27): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1168,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1168,27): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1176,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1176,27): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1184,43): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1184,27): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1250,27): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1261,35): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1407,28): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1415,28): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1564,20): warning C4018:  '<': signed/unsigned mismatch
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1569,21): warning C4018:  '<': signed/unsigned mismatch
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1575,21): warning C4018:  '<': signed/unsigned mismatch
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1593,20): warning C4018:  '<': signed/unsigned mismatch
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1681,27): warning C4305:  'argument': truncation from 'double' to 'float'
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1699,16): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1969,55): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1969,32): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-  Sprites.cpp
-  Textures.cpp
-  Generating Code...
-D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Source.cpp(1970,21): warning C4018:  '<': signed/unsigned mismatch
+﻿  Map.cpp
+D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Map.cpp(103,13): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Map.cpp(105,13): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Map.cpp(119,55): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\Game-Captain-America\Game_Captain_America\Game_Captain_America\Map.cpp(119,41): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
   Game_Captain_America.vcxproj -> D:\GitHub\Game-Captain-America\Game_Captain_America\Debug\Game_Captain_America.exe

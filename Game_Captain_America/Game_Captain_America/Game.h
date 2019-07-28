@@ -2,10 +2,10 @@
 #include <Windows.h>
 #include <d3d9.h>
 #include <d3dx9.h>
-
+#include "Camera.h"
 #define DIRECTINPUT_VERSION 0x0800
 #include <dinput.h>
-#include "Camera.h"
+
 #define KEYBOARD_BUFFER_SIZE 1024
 /*
 Abstract class to define keyboard event handlers
@@ -40,6 +40,7 @@ class CGame
 	LPKEYEVENTHANDLER keyHandler;
 
 public:
+	//float x_cam = 0, y_cam = 0;
 	Camera* mCamera = new Camera(0, 0, 640, 320);
 	void InitKeyboard(LPKEYEVENTHANDLER handler);
 	void Init(HWND hWnd);

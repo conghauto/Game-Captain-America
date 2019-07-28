@@ -23,7 +23,7 @@ void GridObjects::RemoveObject(int i)
 
 ListGrids *ListGrids::instance = NULL;
 
-#define GRID_WIDTH	(SCREEN_WIDTH / 2)
+#define GRID_WIDTH	(SCREEN_WIDTH / 2 + 100)
 
 void ListGrids::InitList(float mapWidth)
 {

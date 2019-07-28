@@ -1,9 +1,7 @@
 #include "define.h"
-#include"Simon.h"
+#include"Captain.h"
 #include "Whip.h"
 #include "Zombie.h"
-#include "Candle.h"
-#include "BigFire.h"
 #include "Lantern.h"
 
 void Whip::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
@@ -24,17 +22,7 @@ void Whip::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 				if (zombie->GetState() != ZOMBIE_STATE_DIE) {
 					zombie->SetState(ZOMBIE_STATE_DIE);
 				}
-				Simon::score += 100;
-			}
-		}
-		else if (dynamic_cast<BigFire *>(coObjects->at(i)))
-		{
-			BigFire *bigfire = dynamic_cast<BigFire *>(coObjects->at(i));
-			float zl, zr, zt, zb;
-			bigfire->GetBoundingBox(zl, zt, zr, zb);
-			if (wl < zl && wr > zr && wt > zt && wb < zb)
-			{
-				bigfire->isHitted = true;
+				Captain::score += 100;
 			}
 		}
 		else if (dynamic_cast<Lantern *>(coObjects->at(i)))
@@ -42,9 +30,9 @@ void Whip::Update(DWORD dt, vector<LPGAMEOBJECT>* coObjects)
 			Lantern *lantern = dynamic_cast<Lantern *>(coObjects->at(i));
 			float zl, zr, zt, zb;
 			lantern->GetBoundingBox(zl, zt, zr, zb);
-			if (wl < zl && wr > zr && wt > zt && wb < zb)
+			if (wl < zl && wr > zr &&wt<zt+16&& wb < zb+16)
 			{
-				lantern->isShooted = true;
+				lantern->isHitted = true;
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 #include <string>
 #include "Sprites.h"
 #include <vector>
-#include "Simon.h"
+#include "Captain.h"
 #include "define.h"
 #include "Textures.h"
 #include "Sprites.h"
@@ -13,11 +13,11 @@ class UI
 private:
 	ID3DXFont *font;
 	RECT rect;
-	Simon *simon;
+	Captain *captain;
 
 	std::string information;
 
-	std::vector<LPSPRITE> simonHPList;
+	std::vector<LPSPRITE> captainHPList;
 	std::vector<LPSPRITE> enemyHPList;
 	std::vector<LPSPRITE> noHPList;
 
@@ -33,7 +33,7 @@ private:
 	CSprite* upgrade1;
 	CSprite* upgrade2;
 
-	int simonHP;
+	int captainHP;
 	int bossHP;
 	int uiHP;
 
@@ -48,10 +48,10 @@ private:
 public:
 	UI();
 	~UI();
-	bool Initialize(LPDIRECT3DDEVICE9 d3ddv,Simon *simon);
+	bool Initialize(LPDIRECT3DDEVICE9 d3ddv,Captain *captain);
 	//void Update(int bossHP, int time, int life, int stage);
-	void Update( int time, int stage,Simon *simon);
-	void Render(float x,float y,Simon *simon);
+	void Update( int time, int stage,Captain *captain);
+	void Render(float x,float y,Captain *captain);
 	CSprite* axe;
 };
 

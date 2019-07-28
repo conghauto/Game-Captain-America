@@ -3,7 +3,7 @@
 #include "Whip.h"
 #include "define.h"
 
-class Simon : public CGameObject
+class Captain : public CGameObject
 {
 	int action;
 	int level;
@@ -30,7 +30,7 @@ public:
 	bool isOnCheckStairDown;
 	bool isOnStair;
 	bool isLeftToRight;
-
+	bool isUseWhip;
 	bool isSit;
 	bool isExitSit;
 	bool isDashing;
@@ -58,7 +58,7 @@ public:
 	static int score;
 	static int heartsAmount;
 	int currentWeapon;
-	Simon() : CGameObject()
+	Captain() : CGameObject()
 	{
 		level = SIMON_LEVEL_BIG;
 		untouchable = 0;
@@ -66,6 +66,7 @@ public:
 		life = 3;
 		preHP = 16;
 		currentWeapon = 0;
+		isUseWhip = true;
 	}
 
 	virtual void CalcPotentialCollisions(vector<LPGAMEOBJECT> *coObjects, vector<LPCOLLISIONEVENT> &coEvents);

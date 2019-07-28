@@ -100,27 +100,40 @@
 #define WHIPITEM_BBOX_WIDTH				32
 #define WHIPITEM_BBOX_HEIGHT			32
 
-//Knife
-#define KNIFE_BBOX_WIDTH				32
-#define KNIFE_BBOX_HEIGHT				18
 
 //Money
 #define MONEY_BBOX_WIDTH				30
 #define MONEY_BBOX_HEIGHT				30
 
 // Zombie
-#define ZOMBIE_WALKING_SPEED			0.07f
+#define ZOMBIE_WALKING_SPEED			0.05f
 
-#define ZOMBIE_BBOX_WIDTH				32
-#define ZOMBIE_BBOX_HEIGHT				32
-#define ZOMBIE_BBOX_HEIGHT_DIE			9
+#define ZOMBIE_BBOX_WIDTH				29
+#define ZOMBIE_BBOX_HEIGHT				45
+#define ZOMBIE_BBOX_HEIGHT_DIE			37
 
 #define ZOMBIE_STATE_WALKING			100
 #define ZOMBIE_STATE_DIE				200
 
 #define ZOMBIE_ANI_WALKING_LEFT			0
 #define ZOMBIE_ANI_WALKING_RIGHT		1
-#define ZOMBIE_ANI_DIE					2
+#define ZOMBIE_ANI_DIE_RIGHT			850
+#define ZOMBIE_ANI_DIE_LEFT				851
+
+//Soldier
+#define SOLDIER_WALKING_SPEED			0.05f
+
+#define SOLDIER_BBOX_WIDTH				29
+#define SOLDIER_BBOX_HEIGHT				45
+#define SOLDIER_BBOX_HEIGHT_DIE			37
+
+#define SOLDIER_STATE_WALKING			100
+#define SOLDIER_STATE_DIE				200
+
+#define SOLDIER_ANI_WALKING_LEFT		0
+#define SOLDIER_ANI_WALKING_RIGHT		1
+#define SOLDIER_ANI_DIE_RIGHT			902
+#define SOLDIER_ANI_DIE_LEFT			903
 
 #define PANTHER_WALKING_SPEED			0.16f
 //Panther
@@ -179,7 +192,7 @@
 #define SCREEN_WIDTH					640
 #define SCREEN_HEIGHT					328
 #define MAX_WIDTH_LV1					2048
-#define MAX_WIDTH_LV2					3085
+#define MAX_WIDTH_LV2					2048
 #define MAX_WIDTH_LV2_1					4096
 #define MAX_WIDTH_LV2_2					5650
 #define MAX_FRAME_RATE					120
@@ -212,7 +225,7 @@
 #define ID_TEX_HEART					105
 #define ID_TEX_BOSS						110
 #define ID_TEX_SIT						200
-
+//#define ID_TEX_KNIFE					177
 #define ID_TEX_AXE						115
 #define ID_TEX_BLACK					120
 #define ID_TEX_CROSS					125
@@ -227,6 +240,9 @@
 #define ID_TEX_NOHP						170
 #define ID_TEX_STOP_WATCH				175
 #define ID_TEX_RECT						176
+#define ID_TEX_ITEM1					177
+#define ID_TEX_ITEM2					178
+#define ID_TEX_ITEM3					179
 
 #define ID_TEX_EFFECT1					180
 #define ID_TEX_EFFECT2					185
@@ -245,7 +261,24 @@
 #define ITEM_HEART						805
 #define ITEM_KNIFE						809
 #define ITEM_MONEY						810
+#define ITEM_1						    813
+#define ITEM_2						    814
+#define ITEM_3						    815
 
+//knife
+#define WEAPON_ANI_KNIFE				2222
+#define WEAPON_ACTIVATE_TIME			300
+#define KNIFE_BBOX_WIDTH				32
+#define KNIFE_BBOX_HEIGHT				32
+#define KNIFE_SPEED						0.5f
 // Checkpoint type
 #define CHECKPOINT_LEVELUP				0
 #define CHECKPOINT_BONUS				1
+#define ID_TEX_WATER				    197
+// Lantern 
+#define LANTERN_BBOX_WIDTH				16
+#define LANTERN_BBOX_HEIGHT				16
+
+// Water
+#define WATER_BBOX_WIDTH				16
+#define WATER_BBOX_HEIGHT				16

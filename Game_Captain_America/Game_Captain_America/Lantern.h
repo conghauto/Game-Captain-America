@@ -1,12 +1,12 @@
 #include"GameObject.h"
 #include"Effect.h"
 
-class Lantern:public CGameObject
+class Lantern :public CGameObject
 {
 public:
-	bool isShooted;
+	bool isHitted;
 	Lantern() :CGameObject() {
-		isShooted = false;
+		isHitted = false;
 	}
 	void SetShoot();
 	virtual void Render();

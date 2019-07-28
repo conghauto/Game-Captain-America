@@ -4,9 +4,11 @@
 
 class Item : public CGameObject
 {
+
+public:
 	int type;
 	bool isEaten;
-public:
+	DWORD appearTime;
 	void SetType(int _type) { type = _type; }
 	int GetType() { return type; }
 	void SetEaten() { isEaten = true; }

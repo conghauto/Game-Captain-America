@@ -2,8 +2,8 @@
 
 UI::UI()
 {
-	simonHP = NULL;
-	simonHP = NULL;
+	captainHP = NULL;
+	captainHP = NULL;
 }
 
 
@@ -12,7 +12,7 @@ UI::~UI()
 	
 }
 
-bool UI::Initialize(LPDIRECT3DDEVICE9 d3ddv, Simon * simon)
+bool UI::Initialize(LPDIRECT3DDEVICE9 d3ddv, Captain * captain)
 {
 	CTextures * textures = CTextures::GetInstance();	
 	heart = new CSprite(1, 0, 0, 16, 16, textures->Get(ID_TEX_HEART));
@@ -28,7 +28,7 @@ bool UI::Initialize(LPDIRECT3DDEVICE9 d3ddv, Simon * simon)
 	{
 		CSprite* sprite = new CSprite(8,0,0,8,15, textures->Get(ID_TEX_HP));
 		
-		simonHPList.push_back(sprite);
+		captainHPList.push_back(sprite);
 	}
 	
 	for (int i = 0; i < 16; i++)
@@ -54,13 +54,13 @@ bool UI::Initialize(LPDIRECT3DDEVICE9 d3ddv, Simon * simon)
 }
 
 //void UI::Update(int bossHP, int time, int life, int stage)
-void UI::Update( int time, int stage,Simon *simon)
+void UI::Update( int time, int stage,Captain *captain)
 {
 	this->time = time;
 	this->stage = stage;
 
 
-	std::string scoreString = std::to_string(simon->GetScore());
+	std::string scoreString = std::to_string(captain->GetScore());
 	while (scoreString.length() < 6)
 		scoreString = "0" + scoreString;
 
@@ -75,17 +75,17 @@ void UI::Update( int time, int stage,Simon *simon)
 		stageString = "0" + stageString;
 
 	information = "SCORE_" + scoreString +  " TIME " + timeString + " STAGE " + stageString + "\n";
-	information += "PLAYER                =" + std::to_string(simon->GetHeart()) + "\n";
-	information += "ENEMY                P=" + std::to_string(simon->GetLife()) + "\n";
+	information += "PLAYER                =" + std::to_string(captain->GetHeart()) + "\n";
+	information += "ENEMY                P=" + std::to_string(captain->GetLife()) + "\n";
 }
 
-void UI::Render(float x,float y,Simon *simon)
+void UI::Render(float x,float y,Captain *captain)
 {	
 	if (font)
 		font->DrawTextA(NULL, information.c_str(), -1, &rect, DT_LEFT, D3DCOLOR_XRGB(255, 255, 255));
-	for (int i = 0; i < simonHPList.size(); i++)
+	for (int i = 0; i < captainHPList.size(); i++)
 	{
-		simonHPList[i]->Draw(x + 130 + 11 * i, 42 , 255);
+		captainHPList[i]->Draw(x + 130 + 11 * i, 42 , 255);
 	}
 	for (int i = 0; i < enemyHPList.size(); i++)
 	{
@@ -94,9 +94,9 @@ void UI::Render(float x,float y,Simon *simon)
 	//axe->Draw(x + SCREEN_WIDTH/2 + 20 , 60, 255);
 	heart->Draw(x + SCREEN_WIDTH / 2 + 105 ,40, 255);
 	pinkrect->Draw(x + SCREEN_WIDTH / 2 , 40, 255);
-	if (simon->currentWeapon != NULL)
+	if (captain->currentWeapon != NULL)
 	{
-		int weapon = simon->currentWeapon;
+		int weapon = captain->currentWeapon;
 		{
 			switch (weapon)
 			{

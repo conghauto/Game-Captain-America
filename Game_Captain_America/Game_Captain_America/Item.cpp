@@ -45,24 +45,6 @@ void Item::GetBoundingBox(float &l, float &t, float &r, float &b)
 	l = x;
 	t = y;
 
-	switch (type)
-	{
-	case ITEM_HEART:
-		r = x + HEART_BBOX_WIDTH;
-		b = y + HEART_BBOX_HEIGHT;
-		break;
-	case ITEM_WHIPITEM:
-		r = x + WHIPITEM_BBOX_WIDTH;
-		b = y + WHIPITEM_BBOX_HEIGHT;
-		break;
-	case ITEM_MONEY:
-		r = x + MONEY_BBOX_WIDTH;
-		b = y + MONEY_BBOX_HEIGHT;
-		break;
-	case ITEM_KNIFE:
-		r = x + KNIFE_BBOX_WIDTH;
-		b = y + KNIFE_BBOX_HEIGHT;
-		break;
-	}
+	r = x + KNIFE_BBOX_WIDTH;
+	b = y + KNIFE_BBOX_HEIGHT;
 }
-
